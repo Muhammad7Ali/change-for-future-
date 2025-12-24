@@ -254,9 +254,14 @@ const ActionSection: React.FC = () => {
                    <span className="font-bold tracking-wide">Share This Awareness App</span>
                 </button>
                 
-                <a href="mailto:contact@sparcpk.org" className="w-full flex items-center justify-center gap-3 bg-white border-2 border-black text-black px-6 py-4 hover:bg-black hover:text-white transition-all group">
+                <a 
+                  href="https://www.mohr.gov.pk/Detail/YWRiYjU0NzktMGE2Zi00NDYyLTljNzktMTA2N2M2MjBlZWZl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full flex items-center justify-center gap-3 bg-white border-2 border-black text-black px-6 py-4 hover:bg-black hover:text-white transition-all group"
+                >
                    <Megaphone className="h-5 w-5" />
-                   <span className="font-bold tracking-wide">Report a Case (SPARC)</span>
+                   <span className="font-bold tracking-wide">Report a Case (MOHR)</span>
                 </a>
 
                 <button 
