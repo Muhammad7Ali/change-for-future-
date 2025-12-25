@@ -2,9 +2,9 @@ import React from 'react';
 import { Play } from 'lucide-react';
 
 const VideoSection: React.FC = () => {
-  const videoUrl = "https://youtu.be/u5v3L7M3Eo4";
-  // extracting the video ID (u5v3L7M3Eo4) to get the specific "Silent Cry" thumbnail from YouTube
-  const thumbnailUrl = "https://img.youtube.com/vi/u5v3L7M3Eo4/maxresdefault.jpg";
+  const videoUrl = "https://youtu.be/vDaEztb1rtE";
+  // extracting the video ID (vDaEztb1rtE) to get the specific thumbnail from YouTube
+  const thumbnailUrl = "https://img.youtube.com/vi/vDaEztb1rtE/maxresdefault.jpg";
 
   return (
     <section className="py-20 bg-white">
@@ -27,7 +27,7 @@ const VideoSection: React.FC = () => {
             {/* Background Image */}
             <img 
               src={thumbnailUrl} 
-              alt="Silent Cry Documentary Thumbnail" 
+              alt="Documentary Thumbnail" 
               className="absolute top-0 left-0 w-full h-full object-cover grayscale opacity-80 group-hover:opacity-60 transition-opacity duration-300"
             />
             
